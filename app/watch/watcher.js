@@ -4,6 +4,7 @@ function watcherWatch(){
   watch.watchTree(config.destination, function (f, curr, prev) {
     if (typeof f == "object" && prev === null && curr === null) {
       // Finished walking the tree 
+      process.emit('file:new', f); //TODO
     } else if (prev === null) {
       // f is a new file
 
@@ -13,6 +14,7 @@ function watcherWatch(){
       // f was removed
     } else {
       // f was changed
+      process.emit('file:new', f); //TODO
     }
   });
 };
