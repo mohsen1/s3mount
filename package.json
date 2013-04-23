@@ -1,0 +1,15 @@
+{
+  "name": "S3Mount",
+  "version": "0.0.1",
+  "author": "Mohsen Azimi <mohsen@mohsenweb.com>",
+  "description": "Syncs a folder with S3 bucket",
+  "dependencies": {
+    "express": "~3.1.2",
+    "watch": "~0.7.0",
+    "jade": "~0.28.2",
+    "knox": "~0.7.0",
+    "underscore": "~1.4.4",
+    "socket.io": "~0.9.14"
+  },
+  "engines": {}
+}
