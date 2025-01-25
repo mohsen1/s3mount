@@ -8,7 +8,7 @@
     "watch": "~0.7.0",
     "jade": "~0.28.2",
     "knox": "~0.6.0",
-    "underscore": "~1.4.4",
+    "underscore": "~1.13.7",
     "socket.io": "~0.9.14"
   },
   "engines": {}
